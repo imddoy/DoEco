@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/do-eco.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+    <title>DO-ECO</title>
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <h1 onclick="goMain();">DO-ECO</h1>
+            <div id="button">
+                <a href="EcoTip.html">ECO-TIP</a>
+                <a href="eco-rank.html">ECO-RANK</a>
+                <a id="now" href="do-eco.html">DO-ECO</a>
+                <a href="do-gather.html">DO-GETHER</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="board_wrap">
+        <!-- <div class="board_title">
+            <img src="images/image 22.png"><strong>DO-ECO</strong>
+            <p>사진과 함께 환경보호를 인증해요!</p>
+        </div> -->
+
+        <div class="title">
+            <img class="camera" src="./images/image 22.png"/>
+            <h1>DO-ECO</h1>
+            <p>사진과 함께 환경보호를 인증해요!</p>
+        </div>
+    
+    <main>
+        <div class="select_wrap">
+            <select>
+                <option>지역선택</option> 
+                <option>서울특별시</option>
+                <option>부산광역시</option>
+                <option>대구광역시</option>
+                <option>인천광역시</option>
+                <option>광주광역시</option>
+                <option>울산광역시</option>
+                <option>세종특별자치시</option>
+                <option>경기도</option>
+                <option>강원도</option>
+                <option>충청북도</option>
+                <option>충청남도</option>
+                <option>전라북도</option>
+                <option>전라남도</option>
+                <option>경상북도</option>
+                <option>제주특별자치도</option>
+            </select>
+        </div>
+
+        <div class="board_list_wrap">
+                <div class="board_list">
+                    <div class="top">
+                        <div class="writer">작성자</div>
+                        <div class="title">제목</div>
+                        <div class="date">작성일자</div>
+                    </div>
+                    <div>
+                        <div class="writer">ㄱㄱㄱ</div>
+                        <div class="title"><a href="view.html">처음으로 분식집 용기내 챌린지 하고 왔어요!</a></div>
+                        <div class="date">22.08.10.</div>
+                    </div>
+                    <div>
+                        <div class="writer">ㄴㄴㄴ</div>
+                        <div class="title"><a href="#">휴가 맞이 환경 봉사 인증합니다.</a></div>
+                        <div class="date">22.08.10.</div>
+                    </div>
+                    <div>
+                        <div class="writer">ㄷㄷㄷ</div>
+                        <div class="title"><a href="#">자가용 저탄소 모드 드라이브 후기입니다~</a></div>
+                        <div class="date">22.08.10.</div> 
+                    </div>
+                    <div>
+                        <div class="writer">ㄹㄹㄹ</div>
+                        <div class="title"><a href="#">용기내 챌린지 인증~ 사장님이 서비스 주셨어요</a></div>
+                        <div class="date">22.08.10.</div>
+                    </div>
+                    <div>
+                        <div class="writer">ㅁㅁㅁ</div>
+                        <div class="title"><a href="#">제로웨이스 용기내 챌린지 업로드요 계정 만들었어요</a></div>
+                        <div class="date">22.08.10.</div>
+                    </div>
+                    <div>
+                        <div class="writer">ㅇㅇㅇ</div>
+                        <div class="title"><a href="#">용기내 챌린지 고수 꿀팁 대방출! 이렇게 해보세요!</a></div>
+                        <div class="date">22.08.10.</div>
+                    </div>
+                </div>
+            </div>    
+            <div class="bt_wrap">
+                <a href="write.html" class="on" >글쓰기</a>
+            </div>
+        </main>
+    </div>
+    <script>
+        function goMain(){
+                    link = 'main.html';
+                    location.href=link;
+        }
+    </script>
+</body>
+</html> 

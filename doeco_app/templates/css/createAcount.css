@@ -1,0 +1,101 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: #F8F8EC;
+    animation: fadein 3s;
+}
+@keyframes fadein {
+    from {
+        opacity: 0.3;
+        transform: translate3d(0, 1%, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translateZ(0);
+    }
+}
+h1{
+    font-family: 'Black Han Sans';
+    font-size: 96px;
+    line-height: 120px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 30px;
+    color: #15512D;
+    cursor: pointer;
+}
+.create{
+    width: 470px;
+    border: none;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form label{
+    padding-left: 15px;
+}
+form div input{
+    box-sizing: border-box;
+    font-size: 13px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+form div input:focus{
+    outline: none;
+    box-shadow: 0px 0px 20px #cccccc;
+}
+form select:focus{
+    box-shadow: 0px 0px 20px #cccccc;
+}
+form select{
+    margin: 0px 10px;
+    width: 130px;
+    font-size: 13px;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    outline: 0;
+    appearance: none;
+    background-image: url(../images/Polygon.png);
+    background-repeat: no-repeat;
+    background-position: 105px;
+    background-size: 12px;
+    padding: 10px;
+}
+
+form>input{
+    margin-top: 30px;
+    box-sizing: border-box;
+    width: 470px;
+    height: 70px;
+    background: #89A95D;
+    border-radius: 20px;
+    color: #fff;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 52px;
+    border: none;
+    cursor: pointer;
+}
+form>input:hover{
+    background-color: #15512D;
+}
+a{
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    font-family: 'IBM Plex Sans';
+    font-size: 18px;
+    color: #15512D;
+    text-align: center;
+    margin-top: 20px;
+}

@@ -1,0 +1,315 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Pretendard-ExtraBold';
+    src: url('../fonts/Pretendard-ExtraBold.woff') format('woff');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #F8F8EC;
+    position: relative;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+
+.nav{
+    width: 100%;
+    height: 105px;
+    background-color: #15512D;
+    display: flex;
+    align-items: center;
+}
+
+.nav h1{
+    font-family: 'Black Han Sans';
+    color: #fff;
+    font-size: 48px;
+    line-height: 60px;
+    padding-left: 40px;
+}
+
+.nav #button{
+    position: absolute;
+    right: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.nav a{
+    display: flex;
+    width: 163px;
+    height: 56px;
+    border-radius: 30px;
+    background-color: #fff;
+    color: black;
+    text-decoration: none;
+    margin: 0 10px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'IBM Plex Sans';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 31px;
+}
+
+.nav a:hover{
+    background-color: #AAE1C0;
+    filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.25));
+}
+
+#now {
+    background-color: #AAE1C0;;
+}
+
+.trophy {
+    position: absolute;
+    width: 95px;
+    height: 95px;
+    left: 102px;
+    top: 174px;
+}
+
+.title h1 {
+    position: absolute;
+    left: 220px;
+    top: 165px;
+
+    font-family: 'Pretendard-ExtraBold';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 76px;
+}
+
+.title p {
+    position: absolute;
+    left: 220px;
+    top: 242px;
+
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 35px;
+
+    color: #89A95D;
+}
+
+.map {
+    position: absolute;
+    width: 919.19px;
+    height: 840px;
+    left: 617px;
+    top: 174px;
+}
+
+main h2 {
+    font-family: 'Black Han Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 100px;
+}
+
+main h3 {
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 72px;
+}
+
+main p {
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    
+    color: #9F9F9F;
+}
+
+/* 1위 서울 */
+.rank-one h2 {
+    position: absolute;
+    left: 253px;
+    top: 339px;
+}
+
+.rank-one h3 {
+    position: absolute;
+    left: 381px;
+    top: 353px;
+}
+
+.one {
+    color: #FF8A00;
+    font-size: 80px;
+}
+
+.rank-one p {
+    position: absolute;
+    left: 560px;
+    top: 359px;
+}
+
+.line-one {
+    position: absolute;
+    width: 311px;
+    left: 385px;
+    top: 439px;
+    border: 2px solid #E2E2E2;
+}
+
+/* 2위 부산 */
+.rank-two h2 {
+    position: absolute;
+    left: 246px;
+    top: 486px;
+}
+
+.rank-two h3 {
+    position: absolute;
+    left: 381px;
+    top: 500px;
+}
+
+.two {
+    color: #DFC900;
+    font-size: 80px;
+}
+
+.rank-two p {
+    position: absolute;
+    left: 563px;
+    top: 506px;
+}
+
+.line-two {
+    position: absolute;
+    width: 311px;
+    height: 0px;
+    left: 385px;
+    top: 586px;
+    border: 2px solid #E2E2E2;
+}
+
+/* 3위 용인 */
+.rank-three h2 {
+    position: absolute;
+    left: 251px;
+    top: 633px;
+}
+
+.rank-three h3 {
+    position: absolute;
+    left: 381px;
+    top: 647px;
+}
+
+.three {
+    color: #009320;
+    font-size: 80px;
+}
+
+.rank-three p {
+    position: absolute;
+    left: 601px;
+    top: 653px;
+}
+
+.line-three {
+    position: absolute;
+    width: 311px;
+    height: 0px;
+    left: 385px;
+    top: 733px;
+    border: 2px solid #E2E2E2;
+}
+/*메인 끝*/
+
+/*더보기 창*/
+
+#more, #in-less {
+    position: absolute;
+    width: 143px;
+    height: 60px;
+    left: 420px;
+    top: 784px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    background: #89A95D;
+    border-radius: 50px;
+}
+#more, #in-less button,p{
+    cursor: pointer;
+}
+#more button{
+    display: flex;
+    justify-content: center;
+}
+#more p{
+    color: #fff;
+    font-size: 28px;
+}
+
+#in-more {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#but, #but2 {
+    font-family: 'NanumGothic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 28px;
+    border: none;
+    background: none;
+
+    color: #FFFFFF;
+}
+
+#less{
+    display: none;
+}
+#in-less {
+    top: 950px;
+}
+
+
+#less ul {
+    position: absolute;
+    left: 420px;
+    top: 784px;
+
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+
+    list-style: none;
+
+    color: #9F9F9F;
+}
+
+#less li {
+    margin: 20px;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eco-rank</title>
+    <link rel="stylesheet" href="./css/eco-rank.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <h1 onclick="goMain();">DO-ECO</h1>
+            <div id="button">
+                <a href="EcoTip.html">ECO-TIP</a>
+                <a id="now" href="eco-rank.html">ECO-RANK</a>
+                <a href="do-eco.html">DO-ECO</a>
+                <a href="do-gather.html">DO-GETHER</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="title">
+            <img class="trophy" src="./images/trophy.png"/>
+            <h1>ECO-RANK</h1>
+            <p>이달의 지역 참여 랭킹을 확인해 보세요!</p>
+        </div>
+
+        <div class="rank-one">
+            <h2><span class="one">1</span>st</h2>
+            <h3>서울</h3> <p>1,099</p>
+        </div>
+        <hr class="line-one">
+        <div class="rank-two">
+            <h2><span class="two">2</span>nd</h2>
+            <h3>부산</h3> <p>1,087</p>
+        </div>
+        <hr class="line-two">
+        <div class="rank-three">
+            <h2><span class="three">3</span>rd</h2>
+            <h3>용인</h3> <p>782</p>
+        </div>  
+        <hr class="line-three">
+        <img class="map" src="./images/map.png" />  
+
+        <div id="more">
+            <button onclick="show();" id="but"><p>더보기</p></button>
+        </div>
+
+        <div id="less">
+            <ul>
+                <li>4rd 제주</li>
+                <li>5rd 인천</li>
+            </ul>
+            <div id="in-less">
+                <button onclick="hid()" id="but2">접기</button>
+            </div>
+        </div>
+    </main>
+    <script>
+        function goMain(){
+                    link = 'main.html';
+                    location.href=link;
+        }
+        var less=document.getElementById("less");
+        var but=document.getElementById("but");
+        var more=document.getElementById("more");
+
+        function show()
+        {
+            less.style.display="block";
+            but.style.display="none";
+            more.style.display="none";
+        }
+
+        function hid()
+        {
+            less.style.display="none";
+            but.style.display="block";
+            more.style.display="flex";
+            
+        }
+    </script>
+</body>
+</html>

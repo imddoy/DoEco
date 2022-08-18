@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/EcoTip.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+    <title>DO-ECO</title>
+</head>
+<body>
+    <div class="Ecotip">
+        <div class="nav">
+            <h1 onclick="goMain();">DO-ECO</h1>
+            <div id="button">
+                <div id="button">
+                    <a id="now" href="EcoTip.html">ECO-TIP</a>
+                    <a href="eco-rank.html">ECO-RANK</a>
+                    <a href="do-eco.html">DO-ECO</a>
+                    <a href="do-gather.html">DO-GETHER</a>
+                </div>
+            </div>
+        </div>
+        <div class="mypage-text">
+            <div id="login-info" style="display: flex; align-items: center; cursor: pointer;" onclick="goMypage();"><span id="mypage-button"><img src="./images/mypage.png" style="width:25px; margin: 0;">용인 멋대님</span></div>
+        </div>
+        <div class="content">
+            <div class="EcoTip-top">
+                <img src="./images/ecotip.png" id="ecotip-image">
+                <h1>ECO-TIP</h1>
+                <p id="ecotip-info1">
+                    DO-ECO가 알려주는 생활 속 환경보호 꿀팁, 함께 실천해요!
+                </p>
+                <p id="ecotip-info2">이 달의 Eco-Tip 실천 시 리워드 2배 적립!</p>
+            </div>
+            <div class="ecotip-detail">
+                <div class="ecotip-detail-top">
+                    <img src="./images/challenge.png" width="100%" height="10%">
+                    <h1 id="callenge-title">용기내 챌린지</h1>
+                </div>
+                <div class="ecotip-detail-bottom">
+                    <p id="ecotip-text">용기내서 용기내 챌린지하고 
+                        <br>리워드 2배 받기!</p>
+                    <p id="ecotip-bottom-text">이달의 ECO-TIP</p>
+                    <button type="button" id="ecotip-go-button">GO!</button>
+                </div>
+            </div>
+            <div class="arrow-keys">
+                <img src="./images/arrow_green.png" id="left-arrow">
+                <img src="./images/arrow_green.png" id="right-arrow">
+            </div>
+        </div>
+    </div>
+    <script>
+        function goMain(){
+                    link = 'main.html';
+                    location.href=link;
+        }
+        function goMypage(){
+            link = 'Mypage.html';
+            location.href=link;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,240 @@
+@font-face {
+    font-family: 'Pretendard-Bold';
+    src: url('../fonts/Pretendard-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Pretendard-ExtraBold';
+    src: url('../fonts/Pretendard-ExtraBold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Pretendard-Medium';
+    src: url('../fonts/Pretendard-Medium.woff') format('woff');
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: #F8F8EC;
+    overflow: hidden;
+}
+
+.Ecotip{
+    margin-bottom: 110vh;
+}
+
+.nav{
+    width: 100%;
+    height: 105px;
+    background-color: #15512D;
+    display: flex;
+    align-items: center;
+}
+.nav h1{
+    font-family: 'Black Han Sans';
+    color: #fff;
+    font-size: 48px;
+    line-height: 60px;
+    padding-left: 40px;
+}
+.nav #button{
+    position: absolute;
+    right: 40px;
+    display: flex;
+    align-items: center;
+}
+.nav a{
+    display: flex;
+    width: 163px;
+    height: 56px;
+    border-radius: 30px;
+    background-color: #fff;
+    color: black;
+    text-decoration: none;
+    margin: 0 10px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'IBM Plex Sans';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 31px;
+}
+.nav a:hover{
+    background-color: #AAE1C0;
+    filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.25));
+}
+
+#now {
+    background-color: #AAE1C0;;
+}
+
+.content{
+    /* text-align: center; */
+    padding-top: 50px;
+}
+
+#login-info{
+    float: right;
+    margin-right: 5vh;
+    padding: 3vh;
+    font-family: 'IBM Plex Sans';
+    font-weight: 550;
+    font-size: 20px;
+    color: #C0C0C0;
+}
+
+#mypage-button{
+    color: #7C7C7C;
+    font-family: 'Black Han Sans';
+    font-size: 28px;
+    /* text-decoration: underline #7C7C7C; */
+    text-underline-position:under
+}
+
+/* .EcoTip-top{
+    position: relative;
+    margin-top: 2%;
+} */
+
+#ecotip-image{
+    /* margin-left: 6%; */
+    position: absolute;
+    width: 95px;
+    height: 95px;
+    left: 102px;
+    top: 174px;
+}
+
+.EcoTip-top h1{
+    /* position: absolute;
+    float: left;
+    left: 26vh;
+    top: 0vh;
+    margin-left: 2%;
+    font-family: 'Pretendard-ExtraBold';
+    font-size: 64px; */
+    position: absolute;
+    left: 220px;
+    top: 165px;
+    font-family: 'Pretendard-ExtraBold';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 76px;
+    margin: 0;
+} 
+
+#ecotip-info1{
+    /* position: absolute;
+    color:#89A95D;
+    font-family: 'IBM Plex Sans Semibold';
+    font-size: 27px;
+    font-weight: 550;
+    /* left: 30.5vh;
+    top: 8vh; */
+    /* left: 14.3%;
+    top: 57%; */
+    position: absolute;
+    left: 220px;
+    top: 242px;
+
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 35px;
+    margin: 0;
+    color: #89A95D;
+}
+
+#ecotip-info2{
+    position: absolute;
+    color:#15512D;
+    font-family: 'IBM Plex Sans Semibold';
+    font-size: 27px;
+    font-weight: 550;
+    left: 220px;
+    top: 242px;
+}
+
+.arrow-keys{
+    position: relative;
+    margin-top: 40vh;
+}
+
+#left-arrow{
+    transform: rotate(180deg);
+    position: absolute;
+    left: 3%;
+}
+
+#right-arrow{
+    position: absolute;
+    right: 3%;
+}  
+
+.ecotip-detail{
+    position: absolute;
+    background-color: #ffffff;
+    width: 30%;
+    height: 60%;
+    left: 14.3%;
+    top: 36%;
+    box-shadow: 5px 5px 20px rgb(154, 154, 154);
+    overflow:hidden;
+}
+
+.ecotip-detail-top{
+    position: relative;
+}
+
+#callenge-title{
+    position: absolute;
+    top: 62%;
+    margin-left: 3vh;
+    font-family: 'Pretendard-ExtraBold';
+    font-size: 55px;
+    -webkit-text-stroke: 1px #ffffff;
+}
+
+.ecotip-detail-bottom{
+    padding: 5px 20px 10px 30px;
+}
+
+#ecotip-text{
+    font-family: 'Pretendard-Bold';
+    font-size: 28px;
+}
+
+#ecotip-bottom-text{
+    color: #15512D;
+    font-size: 18px;
+    font-family: 'Pretendard-Medium';
+    font-weight: 600;
+    position: absolute;
+    top: 88.8%;
+}
+
+#ecotip-go-button{
+    position: absolute;
+    top: 88.8%;
+    left: 75%;
+    background-color: #89A95D;
+    outline: 0;
+    border: 0;
+    color: #FFFFFF;
+    font-family: 'Pretendard-Bold';
+    font-size: 30px;
+    padding: 2px 18px 2px 18px;
+}
+
+#ecotip-go-button:hover{
+    background-color: #15512D;
+}
+
+#mypage-button:hover{
+    color: #454545;
+    /* text-decoration: underline #454545; */
+}

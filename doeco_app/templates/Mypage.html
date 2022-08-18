@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/Mypage.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+    <title>DO-ECO</title>
+</head>
+<body>
+    <div class="nav">
+        <h1 onclick="goMain();">DO-ECO</h1>
+        <div id="button">
+            <a href="EcoTip.html">ECO-TIP</a>
+            <a href="eco-rank.html">ECO-RANK</a>
+            <a href="do-eco.html">DO-ECO</a>
+            <a href="do-gather.html">DO-GETHER</a>
+        </div>
+    </div>
+    <div class="content">
+        <div class="Mypage-top">
+            <img src="./images/mypage.png" id="mypage-image" width="80px" height="80px">
+            <div class="Mypage-title">
+                MY PAGE
+            </div>
+        </div>
+        <div class="Mypage-content">
+            <h2>내 <span>정보</span></h2>
+            <hr size="4px"; color="#89A95D"; width="90%;">
+            <div class="my-info">
+                <img src="./images/profile.png" id="my-image">
+                <!-- <div class="user-info"> -->
+                    <p id="info-email">E-mail: </p>
+                    <p id="info-email-detail">user@gmail.com</p>
+                    <p id="info-id">ID: </p>
+                    <p id="info-id-detail">userID</p>
+                <!-- </div> -->
+            </div>
+
+            <h2>내 <span>리워드</span></h2>
+            <hr size="4px"; color="#89A95D"; width="90%;">
+            <div class="my-reword">
+                <img src="./images/reword.png" id="reword-image">
+                <img src="./images/blink.png" id="reword-blink-image1" class="image blinking">
+                <img src="./images/blink.png" id="reword-blink-image2" class="image blinking">
+                <p id="reword-score">100</p>
+                <button type="button" id="rewordshop-button">리워드 상점 GO!</button>
+            </div>
+            
+        </div>
+        <div class="button-wrapper">
+            <button type="button" id="logout-button">로그아웃</button>
+        </div>
+    </div>
+    <script>
+        function goMain(){
+                    link = 'main.html';
+                    location.href=link;
+        }
+    </script>
+</body>
+</html>
