@@ -49,58 +49,63 @@ body{
 }
 
 .content{
-    text-align: center;
-    padding-top: 50px;
+    padding-top: 50%;
+    height: 100%;
+    background-image: url("../images/earth.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1200px;
 }
 
 .content h1{
     color: #222;
     font-family: 'Black Han Sans';
-    font-size: 96px;
+    font-size: 80px;
     line-height: 120px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    margin: 10px;
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
 }
 .content div:not(.login, .login div){
     font-family: 'IBM Plex Sans';
     font-size: 30px;
     color: rgba(49, 70, 58, 0.9);
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
 }
 
 .login{
-    width: 80%;
-    height: 300px;
     padding-top: 200px;
-    margin: 0 auto;
-    background-image: url("../images/earth.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 700px;
+    position:absolute;
+    bottom: 7%;
+    right: 5%;
 }
 
 .login a{
-    width: 200px;
-    height: 70px;
-    margin: 40px;
-    border: 3px solid #385B3E;
+    width: 130px;
+    height: 50px;
+    border: 3px solid #4D8262;
     border-radius: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    margin: 40px auto;
     background-color: #fff;
     font-family: 'IBM Plex Sans';
     font-style: normal;
     font-weight: 600;
-    font-size: 32px;
+    font-size: 20px;
     line-height: 42px;
     animation: fadeup 3s;
     color: #000;
     text-decoration: none;
+    margin-bottom: 10px;
 }
 .login a:hover{
-    background-color: #385B3E;
+    background-color: #4D8262;
+    box-shadow: inset 0px 4px 12px rgba(0, 0, 0, 0.25);
     color: #fff;
 }
 @keyframes fadeup {

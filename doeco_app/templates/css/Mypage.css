@@ -159,14 +159,28 @@ hr{
 
 .my-info{
     position: relative;
-    margin-left: 5%;
+    margin-top: 20px;
+    margin-left: 6%;
     padding: 5vh;
+    width: 400px;
+    height: 530px;
+    border-radius: 30px;
+    background-color: #fff;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+    float: left;
+    text-align: center;
 }
 
 .my-reword{
-    position: relative;
-    margin-left: 5%;
+    position: absolute;
+    margin-left: 40%;
     padding: 5vh;
+    width: 830px;
+    height: 530px;
+    border-radius: 30px;
+    background-color: #fff;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+    top: 280px;
 }
 
 #info-email{
@@ -191,8 +205,8 @@ hr{
     position: absolute;
     font-family: 'Pretendard-Medium';
     font-size: 25px;
-    left: 25%;
-    top: 10%;
+    left: 30%;
+    top: 70%;
 }
 
 #info-id-detail{
@@ -204,19 +218,23 @@ hr{
 }
 
 #reword-image{
-    float: left;
+    width: 140px;
+    margin-left: 80px;
+    margin-top: 60px;
 }
 
 #reword-blink-image1{
     position: absolute;
-    left: 0%;
+    left: 25%;
+    top: 70%;
     width: 70px;
     height: 70px;
 }
 
 #reword-blink-image2{
     position: absolute;
-    left: 5%;
+    left: 10%;
+    top: 65%;
     width: 70px;
     height: 70px;
     transform: rotate(270deg);
@@ -225,17 +243,34 @@ hr{
 #reword-score{
     position: absolute;
     font-family: 'Pretendard-ExtraBold';
-    font-size: 35px;
-    font-weight: 600;
-    left: 15%;
-    top: 30%;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 91px;
+    left: 40%;
+    top: 55%;
     color: #FFA800;
+}
+
+#type-button{
+    position: absolute;
+    right: 27%;
+    top: 35%;
+    color:#FFA800;
+    outline: #FFA800 solid 3.5px;
+    font-family: 'IBM Plex Sans';
+    font-size: 25px;
+    font-weight: 600;
+    border: none;
+    border-radius: 50px;
+    padding: 7px 30px 7px 30px;
+    background: none;
+    cursor: pointer;
 }
 
 #rewordshop-button{
     position: absolute;
-    right: 10%;
-    top: 70%;
+    right: 35%;
+    top: 82%;
     color:#FFA800;
     outline: #FFA800 solid 3.5px;
     font-family: 'IBM Plex Sans';
@@ -249,9 +284,9 @@ hr{
 }
 
 .button-wrapper{
-    margin-top: 6%;
-    margin-bottom: 3%;
-    margin-left: 44%;
+    position: absolute;
+    bottom: 30px;
+    left: 27%;
 }
 
 #logout-button{
@@ -272,7 +307,7 @@ hr{
     box-shadow: inset 0px 4px 15px rgba(0, 0, 0, 0.25);
 }
 
-#rewordshop-button:hover{
+#type-button:hover, #rewordshop-button:hover{
     background-color: #FFA800;
     color: #ffffff;
     outline-color: #FFA800;

@@ -31,32 +31,56 @@
             </div>
         </div>
         <div class="Mypage-content">
-            <h2>내 <span>정보</span></h2>
-            <hr size="4px"; color="#89A95D"; width="90%;">
+            <!-- <h2>내 <span>정보</span></h2> -->
+            <!-- <hr size="4px"; color="#89A95D"; width="90%;"> -->
             <div class="my-info">
-                <img src="./images/profile.png" id="my-image">
+                <!-- <img src="./images/profile.png" id="my-image"> -->
                 <!-- <div class="user-info"> -->
-                    <p id="info-email">E-mail: </p>
+                    <!-- <p id="info-email">E-mail: </p> -->
+                    <img src="./images/photo.png" style="width: 300px; border-radius: 50%;">
+                    <h2 style="color: #629275; margin-left: 0px;">userID</h2>
+                    <p style="    font-family: 'Pretendard-Medium';font-size: 23px; position: absolute; left: 23%; top: 64%;">서울특별시 성북구 새싹동</p>
                     <p id="info-email-detail">user@gmail.com</p>
-                    <p id="info-id">ID: </p>
-                    <p id="info-id-detail">userID</p>
+                    <!-- <p id="info-id">ID: </p>
+                    <p id="info-id-detail">userID</p> -->
                 <!-- </div> -->
+                <div class="button-wrapper">
+                    <button type="button" id="logout-button">로그아웃</button>
+                </div>
             </div>
 
-            <h2>내 <span>리워드</span></h2>
-            <hr size="4px"; color="#89A95D"; width="90%;">
+            <!-- <h2>내 <span>리워드</span></h2> -->
+            <!-- <hr size="4px"; color="#89A95D"; width="90%;"> -->
             <div class="my-reword">
+                <div style="height: 50%; margin-left: 60px;">
+                    <div style="float: left;border: 4px solid #FFA800; margin-top: 15px; border-radius: 50%; width: 165px; height: 165px; display: flex; align-items: center; justify-content: center;">
+                    <p style="font-family: 'IBM Plex Sans'; font-style: normal; font-weight: 600; font-size: 45px; color: #ffa800;line-height: 58px;">19점</p>
+                    </div>
+                    <div style="margin-left: 250px;">
+                    <h1 style="margin: 10px; color: #629275;">나의 환경 보호 유형은?</h1>
+                    <span style="margin: 10px;color: #629275; font-family: 'IBM Plex Sans'; font-style: normal; font-weight: 700; font-size: 25px; line-height: 32px;">‘에코 리더유형’</span><span style="font-family: 'IBM Plex Sans'; font-style: normal; font-weight: 400; font-size: 22px; cursor: pointer; color: rgb(92, 126, 235); line-height: 29px;">#지금당장 #효과확실</span>
+                    <p style=" margin: 10px;font-family: 'IBM Plex Sans'; font-style: normal; font-weight: 400; font-size: 22px; line-height: 29px;">주변 사람들이 환경 보호를 실천할 수 있도록<br> 
+                        옆에서 이끌어 주는 당신은 진정한 환경 리더!</p>
+                        <button type="button" id="type-button">더 많은 유형 보러가기!</button>
+                    </div>
+                </div>
+                <hr>
+                <div>
+                <div style="float: left;">
                 <img src="./images/reword.png" id="reword-image">
                 <img src="./images/blink.png" id="reword-blink-image1" class="image blinking">
                 <img src="./images/blink.png" id="reword-blink-image2" class="image blinking">
-                <p id="reword-score">100</p>
+                </div>
+                <div style="padding-top: 20px; margin-left: 250px;">
+                <h1 style="margin-left: 55px; color: #629275; padding-left: 10px;;">나의 리워드는?</h1>
+                <p id="reword-score">100P</p><span style="font-family: 'Pretendard-ExtraBold'; font-size: 22px;position: absolute; left: 60%; top: 74%;">골드메달입니다!</span>
                 <button type="button" id="rewordshop-button">리워드 상점 GO!</button>
+                </div>
+                </div>
             </div>
             
         </div>
-        <div class="button-wrapper">
-            <button type="button" id="logout-button">로그아웃</button>
-        </div>
+        
     </div>
     <script>
         function goMain(){
