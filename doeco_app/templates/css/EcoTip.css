@@ -17,7 +17,7 @@ body{
     width: 100%;
     height: 100%;
     margin: 0;
-    background-color: #F8F8EC;
+    background-color: #FEFFFD;
     overflow: hidden;
 }
 
@@ -25,19 +25,21 @@ body{
     margin-bottom: 110vh;
 }
 
+
 .nav{
     width: 100%;
-    height: 105px;
-    background-color: #15512D;
+    height: 80px;
+    background-color: #629275;
     display: flex;
     align-items: center;
 }
 .nav h1{
     font-family: 'Black Han Sans';
     color: #fff;
-    font-size: 48px;
+    font-size: 35px;
     line-height: 60px;
     padding-left: 40px;
+    margin-top: 30px;
 }
 .nav #button{
     position: absolute;
@@ -47,8 +49,8 @@ body{
 }
 .nav a{
     display: flex;
-    width: 163px;
-    height: 56px;
+    width: 120px;
+    height: 40px;
     border-radius: 30px;
     background-color: #fff;
     color: black;
@@ -57,17 +59,20 @@ body{
     justify-content: center;
     align-items: center;
     font-family: 'IBM Plex Sans';
-    font-weight: 600;
-    font-size: 20px;
+    font-weight: 800;
+    font-size: 16px;
     line-height: 31px;
 }
 .nav a:hover{
-    background-color: #AAE1C0;
-    filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.25));
+    color: #fff;
+    background-color: #4D8262;
+    box-shadow: inset 0px 4px 12px rgba(0, 0, 0, 0.25);
 }
 
 #now {
-    background-color: #AAE1C0;;
+    color: #fff;
+    background-color: #4D8262;
+    box-shadow: inset 0px 4px 12px rgba(0, 0, 0, 0.25);
 }
 
 .content{
@@ -93,10 +98,6 @@ body{
     text-underline-position:under
 }
 
-/* .EcoTip-top{
-    position: relative;
-    margin-top: 2%;
-} */
 
 #ecotip-image{
     /* margin-left: 6%; */
@@ -121,8 +122,8 @@ body{
     font-family: 'Pretendard-ExtraBold';
     font-style: normal;
     font-weight: 800;
-    font-size: 64px;
-    line-height: 76px;
+    font-size: 55px;
+    line-height: 70px;
     margin: 0;
 } 
 
@@ -164,13 +165,14 @@ body{
     margin-top: 40vh;
 }
 
-#left-arrow{
-    transform: rotate(180deg);
+#right-arrow{
+    transform: rotate(360deg);
     position: absolute;
     left: 3%;
 }
 
-#right-arrow{
+#left-arrow{
+    transform: rotate(180deg);
     position: absolute;
     right: 3%;
 }  
@@ -178,25 +180,29 @@ body{
 .ecotip-detail{
     position: absolute;
     background-color: #ffffff;
-    width: 30%;
-    height: 60%;
-    left: 14.3%;
-    top: 36%;
+    width: 25%;
+    height: 62%;
+    left: 12%;
+    top: 35%;
     box-shadow: 5px 5px 20px rgb(154, 154, 154);
     overflow:hidden;
+    border-radius: 30px;
 }
 
 .ecotip-detail-top{
     position: relative;
+    padding-top: 50px;
+    height: 27%;
+    background-color: #C4ECF5;
 }
 
 #callenge-title{
     position: absolute;
-    top: 62%;
-    margin-left: 3vh;
-    font-family: 'Pretendard-ExtraBold';
-    font-size: 55px;
-    -webkit-text-stroke: 1px #ffffff;
+    top: 53%;
+    font-family: 'Pretendard-Bold';
+    font-size: 40px;
+    color: #5FA2B1;
+    /* -webkit-text-stroke: 1px #ffffff; */
 }
 
 .ecotip-detail-bottom{
@@ -204,6 +210,8 @@ body{
 }
 
 #ecotip-text{
+    position: absolute;
+    top: 67%;
     font-family: 'Pretendard-Bold';
     font-size: 28px;
 }
@@ -221,17 +229,20 @@ body{
     position: absolute;
     top: 88.8%;
     left: 75%;
-    background-color: #89A95D;
+    background-color: #A0CA8C;
     outline: 0;
     border: 0;
     color: #FFFFFF;
     font-family: 'Pretendard-Bold';
     font-size: 30px;
     padding: 2px 18px 2px 18px;
+    border-radius: 50px;
+    cursor: pointer;
 }
 
 #ecotip-go-button:hover{
-    background-color: #15512D;
+    /* background-color: #88B473; */
+    box-shadow: inset 0px 4px 12px rgba(0, 0, 0, 0.25);
 }
 
 #mypage-button:hover{

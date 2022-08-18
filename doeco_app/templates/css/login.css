@@ -89,6 +89,9 @@ form>input{
     bottom: 70px;
     cursor: pointer;
 }
+form>input:hover{
+    background-color: #15512D;
+}
 form a{
     font-family: 'IBM Plex Sans';
     color: #15512D;
