@@ -102,13 +102,14 @@ body::-webkit-scrollbar{
     margin-left: 6%;
     margin-top: 1.5vh;
     /* position: absolute; */
-    width: 95px;
-    height: 95px;   
-    left: 102px;
-    top: 174px;
+    width: 90px;
+    height: 90px;   
+    /* left: 102px;
+    top: 180px; */
+    margin-top: 40px;
 }
 
-.Mypage-title{
+.Mypage-title h1{
     /* position: absolute;
     float: left;
     left: 26vh;
@@ -119,13 +120,26 @@ body::-webkit-scrollbar{
 
     position: absolute;
     left: 220px;
-    top: 175px;
+    top: 162px;
     font-family: 'Pretendard-ExtraBold';
     font-style: normal;
     font-weight: 800;
-    font-size: 64px;
-    line-height: 76px;
+    font-size: 55px;
+    line-height: 70px;
     margin: 0;
+}
+.Mypage-title p{
+    position: absolute;
+    left: 220px;
+    top: 210px;
+
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 35px;
+
+    color: #89A95D;
 }
 
 h2{
@@ -135,9 +149,9 @@ h2{
     margin-top: 3%;
 }
 
-span{
+/* span{
     color: #215cb4;
-}
+} */
 
 hr{
     margin-top: -25px;
@@ -241,7 +255,7 @@ hr{
 }
 
 #logout-button{
-    background-color: #89A95D;
+    background-color: #A0CA8C;
     color: #FFFFFF;
     border: none;
     padding: 10px 50px 10px 50px;
@@ -255,7 +269,7 @@ hr{
 }
 
 #logout-button:hover{
-    background-color: #15512D;
+    box-shadow: inset 0px 4px 15px rgba(0, 0, 0, 0.25);
 }
 
 #rewordshop-button:hover{

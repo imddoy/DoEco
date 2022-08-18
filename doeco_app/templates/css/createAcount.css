@@ -2,7 +2,7 @@ body{
     width: 100%;
     height: 100%;
     margin: 0;
-    background-color: #F8F8EC;
+    background-color: #FEFFFD;
     animation: fadein 3s;
 }
 @keyframes fadein {
@@ -23,7 +23,7 @@ h1{
     text-align: center;
     margin-top: 150px;
     margin-bottom: 30px;
-    color: #15512D;
+    color: #4D8262;
     cursor: pointer;
 }
 .create{
@@ -75,7 +75,7 @@ form>input{
     box-sizing: border-box;
     width: 470px;
     height: 70px;
-    background: #89A95D;
+    background: #A0CA8C;
     border-radius: 20px;
     color: #fff;
     font-family: 'IBM Plex Sans';
@@ -87,7 +87,7 @@ form>input{
     cursor: pointer;
 }
 form>input:hover{
-    background-color: #15512D;
+    box-shadow: inset 0px 4px 15px rgba(0, 0, 0, 0.25);
 }
 a{
     width: 100%;

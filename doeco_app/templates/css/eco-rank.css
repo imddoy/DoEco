@@ -255,8 +255,11 @@ main p {
     align-items: center;
     text-align: center;
 
-    background: #89A95D;
+    background: #A0CA8C;
     border-radius: 50px;
+}
+#more:hover, #in-less:hover{
+    box-shadow: inset 0px 4px 15px rgba(0, 0, 0, 0.25);
 }
 #more, #in-less button,p{
     cursor: pointer;

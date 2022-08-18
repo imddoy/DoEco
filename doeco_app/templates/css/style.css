@@ -196,14 +196,14 @@ body{
     padding-right: 35px;
     border: 1px #fff;
     min-width: 80px;
-    background-color: #89A95D;
+    background-color: #A0CA8C;
     border-radius: 50px;
     font-size: 2rem;
     font-weight: 700;
 }
 
 .bt_wrap a.on {
-    background: #89A95D;
+    background: #A0CA8C;
     color: #fff;
 }
 main{
@@ -423,7 +423,7 @@ main{
     padding-right: 3%;
     min-width: 7%;
     border: 1px solid #fff;
-    background: #89A95D;
+    background: #A0CA8C;
     color: #fff;
     border-radius: 50px;
     font-size: 2rem;
@@ -498,13 +498,13 @@ main{
     padding-right: 35px;
     border: 1px #fff;
     min-width: 80px;
-    background-color: #89A95D;
+    background-color: #A0CA8C;
     border-radius: 50px;
     font-size: 2rem;
     font-weight: 700;
 }
 
 .bt_write_wrap a.on {
-    background: #89A95D;
+    background: #A0CA8C;
     color: #fff;
 }
