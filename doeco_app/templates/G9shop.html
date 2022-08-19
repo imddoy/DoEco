@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/G9shop.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+    <title>Zero Waste</title>
+</head>
+<body>
+    <div class="nav">
+        <h1 onclick="goMain();">DO-ECO</h1>
+        <div id="button">
+            <a href="EcoTip.html">ECO-TIP</a>
+            <a href="eco-rank.html">ECO-RANK</a>
+            <a href="do-eco.html">DO-ECO</a>
+            <a href="ecospot.html">DO-GETHER</a>
+            <a id="now" href="G9shop.html">Zero Waste</a>
+            <a href="Mypage.html">MY PAGE</a>
+        </div>
+    </div>
+    <main>
+        <div class="title">
+            <img class="trophy" src="./images/zero-waste.png"/>
+            <h1>Zero Waste</h1>
+            <p>쓰레기를 줄여 지구의 온도를 내려 보세요!</p>
+        </div>
+        <div class="content">
+            <h1>#New Item</h1>
+        <div class="new">
+        <div id="first">
+            <img src="./images/tum1.png" style="width: 350px; height: 250px; position: absolute; top: 6%; left: 9.5%;">
+            <h1>[DO-ECO] 두에코 텀블러</h1>
+            <p>15,000원</p>
+            <button onclick="tum()" type="button" class="go-button">GO!</button>
+            
+        </div>
+        <div id="second">
+            <img src="./images/bag2.png" style="width: 350px; height: 250px; position: absolute; top: 6%; left: 9.5%;">
+            <h1>[DO-ECO] 두에코 에코백</h1>
+            <p>15,000원</p>
+            <button type="button" onclick="bag()" class="go-button">GO!</button>
+        </div>
+        </div>
+        <h1>#BioPlastic</h1>
+        <div class="bio">
+        <div id="first">
+            <img src="./images/re1.png" style="width: 350px; height: 250px; position: absolute; top: 6%; left: 9.5%;">
+            <h1>[BIO-PLASTIC] 두에코 리유저블컵</h1>
+            <p>12,000원</p>
+            <button type="button" onclick="re()" class="go-button">GO!</button>
+        </div>
+        <div id="second">
+            <img src="./images/food1.png" style="width: 350px; height: 250px; position: absolute; top: 6%; left: 9.5%;">
+            <h1>[BIO-PLASTIC] 두에코 도시락 용기</h1>
+            <p>15,000원</p>
+            <button type="button" onclick="food()" class="go-button">GO!</button>
+        </div>
+        </div>
+        </div>
+
+        <div id="tum1">
+            <img src="./images/tum1.png" style="width: 500px;">
+            <img src="./images/tum3.png" style="width: 500px;">
+            <h1>[DO-ECO] 두에코 텀블러</h1>
+            <h2>친환경 소재로 만들어진 텀블러입니다. <br>환경호로몬 걱정없이 안전하게 사용할 수 있어요!</h2>
+            <p><br>두에코 텀블러과 함께 환경을 생각하는 움직임을 실현해 보세요. 우리가 만드는 깨끗한 지구! DO-ECO와 함께하세요!</p>
+            <div id="less">
+                <button onclick="hid()" id="hidden">BACK!</button>
+            </div>
+        </div>
+        <div id="bag1">
+            <img src="./images/bag1.png" style="width: 500px;">
+            <img src="./images/bag2.png" style="width: 500px;">
+            <h1>[DO-ECO] 두에코 에코백</h1>
+            <h2>유기농 면으로 만들어진 다목적 에코백입니다. <br>넉넉한 크기로 여러가지 물건을 수납할 수 있어요!</h2>
+            <p><br>두에코 에코백과 함께 환경을 생각하는 움직임을 실현해 보세요. 우리가 만드는 깨끗한 지구! DO-ECO와 함께하세요!</p>
+            <div id="less">
+                <button onclick="hid()" id="hidden">BACK!</button>
+            </div>
+        </div>
+        <div id="re1">
+            <img src="./images/re1.png" style="width: 500px;">
+            <img src="./images/re2.png" style="width: 500px;">
+            <h1>[BIO-PLASTIC] 두에코 리유저블컵 (2종)</h1>
+            <h2>생분해성 플라스틱으로 만들어진 다용도컵입니다. <br> 환경호르몬 걱정 없는 두에코 리유저블컵과 함께 <용기내 챌린지>에 참여해보세요! :) <br>두에코와 함께 난분해성 플라스틱으로부터 지구를 지켜요!</h2>
+            <p><br><br>두에코 리유저블컵과 함께 환경을 생각하는 움직임을 실현해 보세요. 우리가 만드는 깨끗한 지구! DO-ECO와 함께하세요!</p>
+            <div id="less">
+                <button onclick="hid()" id="hidden">BACK!</button>
+            </div>
+        </div>
+        <div id="food1">
+            <img src="./images/food1.png" style="width: 500px;">
+            <img src="./images/food2.png" style="width: 500px;">
+            <h1>[BIO-PLASTIC] 바이오 플라스틱 용기</h1>
+            <h2>생분해성 플라스틱으로 만들어진 용기입니다. <br>두에코와 함께 난분해성 플라스틱으로부터 지구를 지켜요 :)</h2>
+            <p><br>두에코 바이오 플라스틱 용기와 함께 환경을 생각하는 움직임을 실현해 보세요. 우리가 만드는 깨끗한 지구! DO-ECO와 함께하세요!</p>
+            <div id="less">
+                <button onclick="hid()" id="hidden">BACK!</button>
+            </div>
+        </div>
+
+    </main>
+    <script>
+        var tum1=document.getElementById("tum1");
+        var bag1=document.getElementById("bag1");
+        var re1=document.getElementById("re1");
+        var food1=document.getElementById("food1");
+
+        function tum() {
+            tum1.style.display="block";
+            bag1.style.display="none";
+            re1.style.display="none";
+            food1.style.display="none";
+        }
+
+        function bag() {
+            bag1.style.display="block";
+            tum1.style.display="none";
+            re1.style.display="none";
+            food1.style.display="none";
+        }
+
+        function re() {
+            re1.style.display="block";
+            tum1.style.display="none";
+            bag1.style.display="none";
+            food1.style.display="none";
+        }
+
+        function food() {
+            food1.style.display="block";
+            tum1.style.display="none";
+            bag1.style.display="none";
+            re1.style.display="none";
+        }
+
+        function hid() {
+            tum1.style.display="none";
+            bag1.style.display="none";
+            re1.style.display="none";
+            food1.style.display="none";
+        }
+    </script>
+</body>
+</html>

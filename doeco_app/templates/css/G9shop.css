@@ -1,4 +1,5 @@
 body{
+    position: relative;
     width: 100%;
     height: 100%;
     margin: 0;
@@ -145,4 +146,58 @@ body::-webkit-scrollbar{
 .go-button:hover{
     /* background-color: #88B473; */
     box-shadow: inset 0px 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+#tum1, #bag1, #re1, #food1 {
+    position: absolute;
+    width: 100%;
+    top: 350px;
+    left: 1000px;
+    display: none;
+}
+
+#tum1 h1, #bag1 h1, #re1 h1, #food1 h1 {
+    font-family: 'Pretendard-ExtraBold';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 70px;
+    margin: 0;
+}
+
+#tum1 h2, #bag1 h2, #re1 h2, #food1 h2 {
+    position: absolute;
+    top: 350px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 35px;
+    margin: 0;
+    color: #89A95D;
+}
+
+#tum1 p, #bag1 p, #re1 p, #food1 p {
+    position: absolute;
+    top: 380px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 35px;
+    margin: 0;
+}
+
+#hidden {
+    position: absolute;
+    top: 500px;
+    background-color: #A0CA8C;
+    outline: 0;
+    border: 0;
+    color: #FFFFFF;
+    font-family: 'Pretendard-Bold';
+    font-size: 30px;
+    padding: 2px 18px 2px 18px;
+    border-radius: 50px;
+    cursor: pointer;
 }
