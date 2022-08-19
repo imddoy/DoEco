@@ -16,7 +16,11 @@
     <div class="login">
     <fieldset>
         <p>Login to get started</p>
-        <form>
+        <form method="post">
+
+            <!-- {% csrf_token %}
+            {{form.as_ul}} -->
+
             <table>
             <tr><td><img src="images/id.png"><input type="text" name="id" id="id" placeholder="아이디" size="50" required></td></tr>
             <tr><td style="border-top: 1px solid #ccc"><img src="images/pw.png"><input type="password" name="pw" id="pw" placeholder="비밀번호" size="50" required></td></tr>
@@ -24,7 +28,7 @@
             <a href="#">Forgot Password?</a>
             <input type="submit" value="로그인" onclick="handleLogin();">
         </form>
-        <a href="createAcount.html">Create Account</a>
+        <a href="register.html">Create Account</a>
     </fieldset>
     </div>
     <script>

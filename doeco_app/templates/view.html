@@ -18,7 +18,8 @@
                 <a href="EcoTip.html">ECO-TIP</a>
                 <a href="eco-rank.html">ECO-RANK</a>
                 <a id="now" href="do-eco.html">DO-ECO</a>
-                <a href="do-gather.html">DO-GETHER</a>
+                <a href="ecospot.html">DO-GETHER</a>
+                <a href="zerowaste.html">Zero Waste</a>
                 <a href="Mypage.html">MY PAGE</a>
             </div>
         </div>
@@ -67,44 +68,44 @@
             </div>
 
 
-            <div class="ct_user_wrap">
-                <div class="ct_user">                      
-                    <div class="ct_user_one">
-            
-                         <div>
+            <div>
+                <tr>
+                    <div class="user_view_wrap">
+                        <table class="list" id="employeeList">
+                        <thead>
                             <tr>
                                
-                               <div class="user_view_wrap">
-                                        <table class="list" id="employeeList">
-                                        <thead>
-                                            <tr>
-                                                <th>
-                                                    정말 좋은 챌린지인 것 같아요~~
-                                                </th>
-                                            
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                    
-                                        </tbody>
-                                    </table>
-                               
-                               </div>
-                               
-                               <div class="user_put_wrap">
-                                
-                                    <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
-                                       
-                                            <label> </label><label class="validation-error hide" id="fullNameValidationError">댓글이 입력되지 않았습니다.</label>
-                                            <input type="text" placeholder="댓글을 입력하세요" name="fullName" id="fullName"> <input type="submit" value="댓글작성">
-                                       
-                                    </form>
-                               
-                                </div>
+                                <th class="UserID">
+                                    UserID  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                                 </th>
+                                 <th class="Comment">
+                                    2022.08.19
+                                 </th>
                     
                             </tr>
-                        </div>
-                        <script src="script.js"></script>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                    </div>
+
+                    <div class="user_put_wrap">
+                        <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
+
+                            <div>
+                                <label></label><label class="validation-error hide" id="fullNameValidationError">댓글이 입력되지 않았습니다.</label>
+                                <input type="text" placeholder="UserID를 입력하세요" name="fullName" id="fullName"> 
+                                <label></label>
+                                <input type="text" placeholder="댓글을 입력하세요" name="empCode" id="empCode">  <input type="submit" value="댓글작성">
+                            </div>
+                        </form>
+                     </div>
+
+                    </div>   
+                </tr>
+            </div>
+                            <script src="script.js"></script>
         
                     </div>
                 </div> 
