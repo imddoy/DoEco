@@ -508,3 +508,60 @@ main{
     background: #A0CA8C;
     color: #fff;
 }
+
+
+
+
+/*댓글 crud 부분*/
+
+.user_put_wrap{
+    width:110%;
+    padding: 5px;
+    margin-top: 50px;
+}
+
+input[type=text]{
+    display:inline-block;
+    width: 75%;
+    height: 42px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    border: none;
+    padding: 15px;
+    resize: none;
+    background-color: #ffffff;
+    font-size: 18px;
+}
+
+input[type=submit]{
+    display: inline-block;
+    width: 15%;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    padding-left: 3%;
+    padding-right: 3%;
+    min-width: 7%;
+    border: 1px solid #fff;
+    background: #A0CA8C;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+a{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #ABABAB;
+    margin-right: 4px;
+}
+
+label.validation-error{
+    color:   #ABABAB;
+    margin-left: 5px;
+}
+
+.hide{
+    display:none;
+}
