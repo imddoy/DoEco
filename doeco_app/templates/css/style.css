@@ -509,15 +509,19 @@ main{
     color: #fff;
 }
 
-
-
-
 /*댓글 crud 부분*/
+
+.user_view_wrap {
+    width:110%;
+    padding: 5px;
+    font-size: 17px;
+    text-align: left;
+}
 
 .user_put_wrap{
     width:110%;
     padding: 5px;
-    margin-top: 50px;
+    margin-top: 10px;
 }
 
 input[type=text]{
@@ -565,3 +569,4 @@ label.validation-error{
 .hide{
     display:none;
 }
+
