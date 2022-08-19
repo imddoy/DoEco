@@ -273,9 +273,9 @@ body::-webkit-scrollbar{
 }
 
 main h2 {
-    font-family: 'Black Han Sans';
+    font-family: 'IBM plex sans';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 900;
     font-size: 40px;
     line-height: 100px;
 }
@@ -298,6 +298,8 @@ main p {
     color: #9F9F9F;
 }
 
+
+
 /* 1위 서울 */
 .rank-one h2 {
     position: absolute;
@@ -314,6 +316,7 @@ main p {
 .one {
     color: #FF8A00;
     font-size: 80px;
+    font-family: 'Pretendard';
 }
 
 .rank-one p {
@@ -321,7 +324,6 @@ main p {
     left: 560px;
     top: 359px;
 }
-
 .line-one {
     position: absolute;
     width: 311px;
@@ -346,6 +348,8 @@ main p {
 .two {
     color: #DFC900;
     font-size: 80px;
+    font-family: 'Pretendard';
+
 }
 
 .rank-two p {
@@ -379,6 +383,8 @@ main p {
 .three {
     color: #009320;
     font-size: 80px;
+    font-family: 'Pretendard';
+
 }
 
 .rank-three p {
@@ -395,6 +401,53 @@ main p {
     top: 733px;
     border: 2px solid #E2E2E2;
 }
+.number{
+    color: #9F9F9F;
+    margin-left: 50px;
+}
+#box {
+    width: 500px;
+    height: 370px;
+    background-color: #fff;
+    font-family: 'IBM plex sans';
+    font-size: 2.5rem;
+    padding-left: 95px;
+    padding-top: 10px;
+    box-sizing: border-box;
+  }
+  .gradient-border {
+    --borderWidth: 3px;
+    background: #1D1F20;
+    position: relative;
+    border-radius: var(--borderWidth);
+  }
+  .gradient-border:after {
+    content: '';
+    position: absolute;
+    top: calc(-1 * var(--borderWidth));
+    left: calc(-1 * var(--borderWidth));
+    height: calc(100% + var(--borderWidth) * 2);
+    width: calc(100% + var(--borderWidth) * 2);
+    background: linear-gradient(60deg, #f9f263, #f79533,  #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+    border-radius: calc(2 * var(--borderWidth));
+    z-index: -1;
+    animation: animatedgradient 3s ease alternate infinite;
+    background-size: 300% 300%;
+  }
+  
+  
+  @keyframes animatedgradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
 /*메인 끝*/
 
 /*더보기 창*/
@@ -456,7 +509,7 @@ main p {
 
 #less ul {
     position: absolute;
-    left: 420px;
+    left: 410px;
     top: 784px;
 
     font-family: 'Pretendard';

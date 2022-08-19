@@ -182,8 +182,30 @@ body{
     background-color: #ffffff;
     width: 25%;
     height: 58%;
-    left: 12%;
-    top: 37%;
+    left: 10%;
+    top: 350px;
+    box-shadow:  5px 5px 20px rgb(154, 154, 154);
+    overflow:hidden;
+    border-radius: 30px;
+}
+.ecotip-detail2{
+    position: absolute;
+    background-color: #ffffff;
+    width: 25%;
+    height: 58%;
+    left: 37.5%;
+    top: 350px;
+    box-shadow:  5px 5px 20px rgb(154, 154, 154);
+    overflow:hidden;
+    border-radius: 30px;
+}
+.ecotip-detail3{
+    position: absolute;
+    background-color: #ffffff;
+    width: 25%;
+    height: 58%;
+    left: 65%;
+    top: 350px;
     box-shadow:  5px 5px 20px rgb(154, 154, 154);
     overflow:hidden;
     border-radius: 30px;
@@ -195,15 +217,44 @@ body{
     height: 27%;
     background-color: #C4ECF5;
 }
+.ecotip-detail-top2{
+    position: relative;
+    padding-top: 50px;
+    height: 27%;
+    background-color: #FFEF99; 
+}
+.ecotip-detail-top3{
+    position: relative;
+    padding-top: 50px;
+    height: 27%;
+    background-color: #F8CECC; 
+}
 
 #callenge-title{
     position: absolute;
     top: 53%;
-    font-family: 'Pretendard-Bold';
+    font-family: 'Pretendard-Bold';    
     font-size: 40px;
     color: #5FA2B1;
     /* -webkit-text-stroke: 1px #ffffff; */
 }
+#callenge-title2{
+    position: absolute;
+    top: 53%;
+    font-family: 'Pretendard-Bold';    
+    font-size: 40px;
+    color: #F4C857;
+    /* -webkit-text-stroke: 1px #ffffff; */
+}
+#callenge-title3{
+    position: absolute;
+    top: 53%;
+    font-family: 'Pretendard-Bold';    
+    font-size: 40px;
+    color: #EA6B66;
+    /* -webkit-text-stroke: 1px #ffffff; */
+}
+
 
 .ecotip-detail-bottom{
     padding: 5px 20px 10px 30px;
