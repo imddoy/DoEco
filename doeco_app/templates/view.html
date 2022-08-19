@@ -65,37 +65,50 @@
             <div class="vtitle">
                 댓글 <img src="images/Group 29.png">
             </div>
+
+
             <div class="ct_user_wrap">
                 <div class="ct_user">                      
                     <div class="ct_user_one">
-                         <img src="images/image 17.png"> 
-                            <dl>
-                                <dd>
-                                    userID &nbsp&nbsp&nbsp&nbsp 2022-06-11 
-                                </dd>
-                                <dt>
-                                    덕분에 저도 챌린지에 참여하고자하는 용기를 얻었어요!  
-                                </dt>
-                            </dl>
-                     </div>
-                        </br>
-                     <div class="ct_user_two">
-                        <img src="images/image 17.png" >   
-                            <dl>
-                                <dd>
-                                    userID &nbsp&nbsp&nbsp&nbsp 2022-06-10 
-                                </dd>
-                                <dt>
-                                    정말 좋은 챌린지인 것 같아요~~ 
-                                </dt>
-                            </dl>
+            
+                         <div>
+                            <tr>
+                               
+                               <div class="user_view_wrap">
+                                        <table class="list" id="employeeList">
+                                        <thead>
+                                            <tr>
+                                                <th>
+                                                    정말 좋은 챌린지인 것 같아요~~
+                                                </th>
+                                            
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                    
+                                        </tbody>
+                                    </table>
+                               
+                               </div>
+                               
+                               <div class="user_put_wrap">
+                                
+                                    <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
+                                       
+                                            <label> </label><label class="validation-error hide" id="fullNameValidationError">댓글이 입력되지 않았습니다.</label>
+                                            <input type="text" placeholder="댓글을 입력하세요" name="fullName" id="fullName"> <input type="submit" value="댓글작성">
+                                       
+                                    </form>
+                               
+                                </div>
+                    
+                            </tr>
+                        </div>
+                        <script src="script.js"></script>
+        
                     </div>
                 </div> 
             </div>   
-            <div class="ct_wrap">
-                <input type="text" placeholder="댓글을 입력하세요"></input><a href="#" >댓글작성</a>
-            </div>
-    
         </div>
     </div> 
     </main>
